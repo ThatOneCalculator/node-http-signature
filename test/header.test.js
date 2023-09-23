@@ -5,7 +5,7 @@ var fs = require('fs');
 var http = require('http');
 
 var test = require('tap').test;
-var uuid = require('uuid');
+var uuid = require('uuid').v4;
 
 var httpSignature = require('../lib/index');
 

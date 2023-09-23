@@ -1,7 +1,7 @@
 {
-  "name": "@firefish/http-signature",
+  "name": "http-signature",
   "description": "Firefish's fork of reference implementation of Joyent's HTTP Signature scheme.",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "license": "MIT",
   "author": "Firefish | Joyent, Inc | Chocobozzz | Jack Schipper",
   "contributors": [

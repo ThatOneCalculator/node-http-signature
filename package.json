@@ -15,16 +15,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Chocobozzz/node-http-signature.git"
+    "url": "git://github.com/ThatOneCalculator/node-http-signature.git"
   },
-  "homepage": "https://github.com/Chocobozzz/node-http-signature/",
-  "bugs": "https://github.com/Chocobozzz/node-http-signature/issues",
+  "homepage": "https://github.com/ThatOneCalculator/node-http-signature/",
+  "bugs": "https://github.com/ThatOneCalculator/node-http-signature/issues",
   "keywords": [
     "https",
     "request"
   ],
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=4.1.6"
   },
   "main": "lib/index.js",
   "files": [

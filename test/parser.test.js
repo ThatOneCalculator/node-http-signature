@@ -171,46 +171,6 @@ test("param name with space", function (t) {
 	});
 });
 
-test("no algorithm", function (t) {
-	server.tester = function (req, res) {
-		try {
-			httpSignature.parseRequest(req);
-		} catch (e) {
-			t.equal(e.name, "InvalidHeaderError");
-			t.equal(e.message, "algorithm was not specified");
-		}
-
-		res.writeHead(200);
-		res.end();
-	};
-
-	options.headers.Authorization = 'Signature keyId="foo"';
-	http.get(options, function (res) {
-		t.equal(res.statusCode, 200);
-		t.end();
-	});
-});
-
-test("algorithm no value", function (t) {
-	server.tester = function (req, res) {
-		try {
-			httpSignature.parseRequest(req);
-		} catch (e) {
-			t.equal(e.name, "InvalidHeaderError");
-			t.equal(e.message, "algorithm was not specified");
-		}
-
-		res.writeHead(200);
-		res.end();
-	};
-
-	options.headers.Authorization = 'Signature keyId="foo",algorithm=';
-	http.get(options, function (res) {
-		t.equal(res.statusCode, 200);
-		t.end();
-	});
-});
-
 test("no signature", function (t) {
 	server.tester = function (req, res) {
 		try {

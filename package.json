@@ -1,5 +1,5 @@
 {
-  "name": "@firefish/http-signature",
+  "name": "@joinfirefish/http-signature",
   "description": "Firefish's fork of reference implementation of Joyent's HTTP Signature scheme.",
   "version": "1.8.2",
   "license": "MIT",

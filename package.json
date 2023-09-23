@@ -3,11 +3,14 @@
   "description": "Firefish's fork of reference implementation of Joyent's HTTP Signature scheme.",
   "version": "1.8.0",
   "license": "MIT",
-  "author": "Joyent, Inc",
+  "author": "Firefish | Joyent, Inc | Chocobozzz | Jack Schipper",
   "contributors": [
     "Mark Cavage <mcavage@gmail.com>",
     "David I. Lehn <dil@lehn.org>",
-    "Patrick Mooney <patrick.f.mooney@gmail.com>"
+    "Patrick Mooney <patrick.f.mooney@gmail.com>",
+    "Kainoa Kanter <kainoa@t1c.dev>",
+    "Chocobozzz <me@florianbigard.com>",
+    "Jack Schipper <jack.schipper@encapture.com>"
   ],
   "repository": {
     "type": "git",
@@ -20,7 +23,7 @@
     "request"
   ],
   "engines": {
-    "node": ">=0.10"
+    "node": ">=16.0.0"
   },
   "main": "lib/index.js",
   "files": [
